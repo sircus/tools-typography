@@ -1,0 +1,43 @@
+/*
+ * sircus-tools-typography
+ ================================================== */
+
+.t-normal        { font-weight: normal !important; }
+.t-bold          { font-weight: bold !important; }
+.t-bolder        { font-weight: bolder !important; }
+.t-lighter       { font-weight: lighter !important; }
+
+.t-italic        { font-style: italic !important; }
+
+
+.t-decoNone      { text-decoration: none !important; }
+.t-underline     { text-decoration: underline !important; }
+.t-overline      { text-decoration: overline !important; }
+.t-through       { text-decoration: line-through !important; }
+
+
+.t-lowercase     { text-transform: lowercase !important; }
+.t-uppercase     { text-transform: uppercase !important; }
+.t-capitalize    { text-transform: capitalize !important; }
+
+
+.t-nowrap        { white-space: nowrap !important; }
+.t-pre           { white-space: pre !important; }
+
+.t-enSans        { font-family: $g-fontFamily-sansEn !important; }
+.t-enSerif       { font-family: $g-fontFamily-serifEn !important;}
+.t-enMonospace   { font-family: $g-fontFamily-monospaceEn !important; }
+
+.t-jaSans        { font-family: $g-fontFamily-sansJa !important; }
+.t-jaSerif       { font-family: $g-fontFamily-serifJa !important;}
+.t-jaMonospace   { font-family: $g-fontFamily-monospaceJa !important; }
+
+.t-colorPrimary  { color: $g-primary !important; }
+.t-colorSuccess  { color: $g-success !important; }
+.t-colorNotice   { color: $g-notice !important; }
+.t-colorWarning  { color: $g-warning !important; }
+.t-colorError    { color: $g-error !important; }
+
+.t-lh-sm  { line-height: $g-lineHeight-sm !important; }
+.t-lh-md  { line-height: $g-lineHeight-md !important; }
+.t-lh-lg  { line-height: $g-lineHeight-lg !important; }
