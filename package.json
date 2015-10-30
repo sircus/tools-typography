@@ -22,9 +22,6 @@
   "scripts": {
     "build": "css2scss ./index.css ./_converted.scss"
   },
-  "dependencies": {
-    "sircus-global-property": "^0.0.1"
-  },
   "devDependencies": {
     "sircus-process-css2scss": "^0.2.0"
   }
